@@ -1,11 +1,10 @@
 {
-  "updateTime": "2020-04-09T10:21:02.457917Z",
   "sources": [
     {
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-phishingprotection.git",
-        "sha": "b10077071dbf8b2053dd4df466a132b923784df6"
+        "sha": "9e37bb674f13e13814d654236c7342321469c8d5"
       }
     },
     {
