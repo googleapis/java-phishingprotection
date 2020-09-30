@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-phishingprotection.git",
-        "sha": "b966716a67954f2c394ec36e833829770570d088"
+        "sha": "c80bc8eafbade7a7d463c669e4704bb05c6348db"
       }
     },
     {
@@ -19,7 +19,7 @@
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "916c10e8581804df2b48a0f0457d848f3faa582e"
+        "sha": "95dbe1bee3c7f7e52ddb24a54c37080620e0d1a2"
       }
     }
   ],
@@ -92,7 +92,6 @@
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "LICENSE",
-    "README.md",
     "codecov.yaml",
     "google-cloud-phishingprotection/src/main/java/com/google/cloud/phishingprotection/v1beta1/PhishingProtectionServiceV1Beta1Client.java",
     "google-cloud-phishingprotection/src/main/java/com/google/cloud/phishingprotection/v1beta1/PhishingProtectionServiceV1Beta1Settings.java",
