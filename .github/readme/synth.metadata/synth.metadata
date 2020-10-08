@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-phishingprotection.git",
-        "sha": "7f940719a4af171476a6e3a562ba974a5ea2af58"
+        "sha": "63cf6dc058cebfad95f12eb2f43b3f82e8c49b45"
       }
     },
     {
