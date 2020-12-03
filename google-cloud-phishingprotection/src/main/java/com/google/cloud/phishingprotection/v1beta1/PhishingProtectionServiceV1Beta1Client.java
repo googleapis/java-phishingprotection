@@ -25,7 +25,6 @@ import com.google.phishingprotection.v1beta1.ProjectName;
 import com.google.phishingprotection.v1beta1.ReportPhishingRequest;
 import com.google.phishingprotection.v1beta1.ReportPhishingResponse;
 import java.io.IOException;
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.Generated;
 
@@ -161,7 +160,7 @@ public class PhishingProtectionServiceV1Beta1Client implements BackgroundResourc
   public final ReportPhishingResponse reportPhishing(ProjectName parent, String uri) {
     ReportPhishingRequest request =
         ReportPhishingRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .setUri(uri)
             .build();
     return reportPhishing(request);
