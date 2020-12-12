@@ -79,12 +79,22 @@ public class GrpcPhishingProtectionServiceV1Beta1Stub extends PhishingProtection
         callableFactory);
   }
 
+  /**
+   * Constructs an instance of GrpcPhishingProtectionServiceV1Beta1Stub, using the given settings.
+   * This is protected so that it is easy to make a subclass, but otherwise, the static factory
+   * methods should be preferred.
+   */
   protected GrpcPhishingProtectionServiceV1Beta1Stub(
       PhishingProtectionServiceV1Beta1StubSettings settings, ClientContext clientContext)
       throws IOException {
     this(settings, clientContext, new GrpcPhishingProtectionServiceV1Beta1CallableFactory());
   }
 
+  /**
+   * Constructs an instance of GrpcPhishingProtectionServiceV1Beta1Stub, using the given settings.
+   * This is protected so that it is easy to make a subclass, but otherwise, the static factory
+   * methods should be preferred.
+   */
   protected GrpcPhishingProtectionServiceV1Beta1Stub(
       PhishingProtectionServiceV1Beta1StubSettings settings,
       ClientContext clientContext,
