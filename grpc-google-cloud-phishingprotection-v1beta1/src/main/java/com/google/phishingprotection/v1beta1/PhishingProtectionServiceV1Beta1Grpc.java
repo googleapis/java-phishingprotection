@@ -22,13 +22,7 @@ import static io.grpc.stub.ClientCalls.futureUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-/**
- *
- *
- * <pre>
- * Service to report phishing URIs.
- * </pre>
- */
+/** */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler",
     comments = "Source: google/cloud/phishingprotection/v1beta1/phishingprotection.proto")
@@ -132,29 +126,11 @@ public final class PhishingProtectionServiceV1Beta1Grpc {
     return PhishingProtectionServiceV1Beta1FutureStub.newStub(factory, channel);
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to report phishing URIs.
-   * </pre>
-   */
+  /** */
   public abstract static class PhishingProtectionServiceV1Beta1ImplBase
       implements io.grpc.BindableService {
 
-    /**
-     *
-     *
-     * <pre>
-     * Reports a URI suspected of containing phishing content to be reviewed. Once
-     * the report review is complete, its result can be found in the Cloud
-     * Security Command Center findings dashboard for Phishing Protection. If the
-     * result verifies the existence of malicious phishing content, the site will
-     * be added the to [Google's Social Engineering
-     * lists](https://support.google.com/webmasters/answer/6350487/) in order to
-     * protect users that could get exposed to this threat in the future.
-     * </pre>
-     */
+    /** */
     public void reportPhishing(
         com.google.phishingprotection.v1beta1.ReportPhishingRequest request,
         io.grpc.stub.StreamObserver<com.google.phishingprotection.v1beta1.ReportPhishingResponse>
@@ -176,13 +152,7 @@ public final class PhishingProtectionServiceV1Beta1Grpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to report phishing URIs.
-   * </pre>
-   */
+  /** */
   public static final class PhishingProtectionServiceV1Beta1Stub
       extends io.grpc.stub.AbstractAsyncStub<PhishingProtectionServiceV1Beta1Stub> {
     private PhishingProtectionServiceV1Beta1Stub(
@@ -196,19 +166,7 @@ public final class PhishingProtectionServiceV1Beta1Grpc {
       return new PhishingProtectionServiceV1Beta1Stub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Reports a URI suspected of containing phishing content to be reviewed. Once
-     * the report review is complete, its result can be found in the Cloud
-     * Security Command Center findings dashboard for Phishing Protection. If the
-     * result verifies the existence of malicious phishing content, the site will
-     * be added the to [Google's Social Engineering
-     * lists](https://support.google.com/webmasters/answer/6350487/) in order to
-     * protect users that could get exposed to this threat in the future.
-     * </pre>
-     */
+    /** */
     public void reportPhishing(
         com.google.phishingprotection.v1beta1.ReportPhishingRequest request,
         io.grpc.stub.StreamObserver<com.google.phishingprotection.v1beta1.ReportPhishingResponse>
@@ -220,13 +178,7 @@ public final class PhishingProtectionServiceV1Beta1Grpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to report phishing URIs.
-   * </pre>
-   */
+  /** */
   public static final class PhishingProtectionServiceV1Beta1BlockingStub
       extends io.grpc.stub.AbstractBlockingStub<PhishingProtectionServiceV1Beta1BlockingStub> {
     private PhishingProtectionServiceV1Beta1BlockingStub(
@@ -240,32 +192,14 @@ public final class PhishingProtectionServiceV1Beta1Grpc {
       return new PhishingProtectionServiceV1Beta1BlockingStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Reports a URI suspected of containing phishing content to be reviewed. Once
-     * the report review is complete, its result can be found in the Cloud
-     * Security Command Center findings dashboard for Phishing Protection. If the
-     * result verifies the existence of malicious phishing content, the site will
-     * be added the to [Google's Social Engineering
-     * lists](https://support.google.com/webmasters/answer/6350487/) in order to
-     * protect users that could get exposed to this threat in the future.
-     * </pre>
-     */
+    /** */
     public com.google.phishingprotection.v1beta1.ReportPhishingResponse reportPhishing(
         com.google.phishingprotection.v1beta1.ReportPhishingRequest request) {
       return blockingUnaryCall(getChannel(), getReportPhishingMethod(), getCallOptions(), request);
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to report phishing URIs.
-   * </pre>
-   */
+  /** */
   public static final class PhishingProtectionServiceV1Beta1FutureStub
       extends io.grpc.stub.AbstractFutureStub<PhishingProtectionServiceV1Beta1FutureStub> {
     private PhishingProtectionServiceV1Beta1FutureStub(
@@ -279,19 +213,7 @@ public final class PhishingProtectionServiceV1Beta1Grpc {
       return new PhishingProtectionServiceV1Beta1FutureStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Reports a URI suspected of containing phishing content to be reviewed. Once
-     * the report review is complete, its result can be found in the Cloud
-     * Security Command Center findings dashboard for Phishing Protection. If the
-     * result verifies the existence of malicious phishing content, the site will
-     * be added the to [Google's Social Engineering
-     * lists](https://support.google.com/webmasters/answer/6350487/) in order to
-     * protect users that could get exposed to this threat in the future.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.phishingprotection.v1beta1.ReportPhishingResponse>
         reportPhishing(com.google.phishingprotection.v1beta1.ReportPhishingRequest request) {
