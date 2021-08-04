@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.31.0](https://www.github.com/googleapis/java-phishingprotection/compare/v0.30.2...v0.31.0) (2021-08-04)
+
+
+### Features
+
+* configure initial sp version ([#504](https://www.github.com/googleapis/java-phishingprotection/issues/504)) ([366802e](https://www.github.com/googleapis/java-phishingprotection/commit/366802e334ce97ffea2fb199c4cf5791bf7f929f))
+
 ### [0.30.2](https://www.github.com/googleapis/java-phishingprotection/compare/v0.30.1...v0.30.2) (2021-07-01)
 
 
