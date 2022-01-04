@@ -1,5 +1,102 @@
 # Changelog
 
+## [0.33.0](https://github.com/googleapis/java-phishingprotection/compare/java-phishingprotection-v0.32.4...java-phishingprotection-v0.33.0) (2022-01-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* release gapic-generator-java v2.0.0 (#508)
+
+### Features
+
+* add `gcf-owl-bot[bot]` to `ignoreAuthors` ([#446](https://github.com/googleapis/java-phishingprotection/issues/446)) ([51762cd](https://github.com/googleapis/java-phishingprotection/commit/51762cddede502dd94dc84d77eb649df64f776b8))
+* **deps:** adopt flatten plugin and google-cloud-shared-dependencies ([#165](https://github.com/googleapis/java-phishingprotection/issues/165)) ([69fb3da](https://github.com/googleapis/java-phishingprotection/commit/69fb3daea7c5ac02546cb007439545021e5e704e))
+* make repo releasable, add parent/bom ([#1](https://github.com/googleapis/java-phishingprotection/issues/1)) ([687c60f](https://github.com/googleapis/java-phishingprotection/commit/687c60f44b264a8dc7ba941f99dfaa58f7238ce0))
+* release gapic-generator-java v2.0.0 ([#508](https://github.com/googleapis/java-phishingprotection/issues/508)) ([3e47bc5](https://github.com/googleapis/java-phishingprotection/commit/3e47bc54e0ba52be2a98a88ce8b3be18ba6abd93))
+* Remove use of deprecated gradle command in java README ([#1196](https://github.com/googleapis/java-phishingprotection/issues/1196)) ([#532](https://github.com/googleapis/java-phishingprotection/issues/532)) ([bb433c2](https://github.com/googleapis/java-phishingprotection/commit/bb433c24a4554107e3dc25ab7e351ccc29dcfe82))
+
+
+### Bug Fixes
+
+* Add `shopt -s nullglob` to dependencies script ([#474](https://github.com/googleapis/java-phishingprotection/issues/474)) ([007a605](https://github.com/googleapis/java-phishingprotection/commit/007a60597026eaadecf34e48cb11bad1cdabe366))
+* **java:** add -ntp flag to native image testing command ([#1299](https://github.com/googleapis/java-phishingprotection/issues/1299)) ([#589](https://github.com/googleapis/java-phishingprotection/issues/589)) ([d3b2088](https://github.com/googleapis/java-phishingprotection/commit/d3b2088080abb07b858f5ce64b2b6f7555fa32e9))
+* **java:** java 17 dependency arguments ([#1266](https://github.com/googleapis/java-phishingprotection/issues/1266)) ([#574](https://github.com/googleapis/java-phishingprotection/issues/574)) ([e5ac9ec](https://github.com/googleapis/java-phishingprotection/commit/e5ac9ecc01536750814ecdd192af78db49671d74))
+* **java:** run Maven in plain console-friendly mode ([#1301](https://github.com/googleapis/java-phishingprotection/issues/1301)) ([#595](https://github.com/googleapis/java-phishingprotection/issues/595)) ([0a6d62b](https://github.com/googleapis/java-phishingprotection/commit/0a6d62bdf7c46094c468025d6d6b44f23b645e01))
+* migrate phishingprotection/v1beta1 to grpc_service_config ([#156](https://github.com/googleapis/java-phishingprotection/issues/156)) ([0aa00b6](https://github.com/googleapis/java-phishingprotection/commit/0aa00b6ed53cb83ef87b9864f6eee1dc54990627))
+* release scripts from issuing overlapping phases ([#417](https://github.com/googleapis/java-phishingprotection/issues/417)) ([912a15c](https://github.com/googleapis/java-phishingprotection/commit/912a15c3d8a356bc63e89f68e34f566b69064516))
+* typo ([#413](https://github.com/googleapis/java-phishingprotection/issues/413)) ([9c75082](https://github.com/googleapis/java-phishingprotection/commit/9c750826dbc90682939e98b48fb2f8cdb8ad59c6))
+* Update dependencies.sh to not break on mac ([#470](https://github.com/googleapis/java-phishingprotection/issues/470)) ([c300b9f](https://github.com/googleapis/java-phishingprotection/commit/c300b9f281369144b8205e4712a2b4bc0e344dd1))
+
+
+### Documentation
+
+* generate sample code in the Java microgenerator ([#356](https://github.com/googleapis/java-phishingprotection/issues/356)) ([c711b82](https://github.com/googleapis/java-phishingprotection/commit/c711b82835993f2b34498c3392bd94fdf50089b5))
+* reference libraries-bom in docs ([#11](https://github.com/googleapis/java-phishingprotection/issues/11)) ([ba81297](https://github.com/googleapis/java-phishingprotection/commit/ba81297b233546de32afb6119232cbb169a0168b))
+* **regen:** update sample code to set total timeout, add API client header test ([f783c29](https://github.com/googleapis/java-phishingprotection/commit/f783c292ad5083b3bc4dfcadb55151b50bfa93d2))
+* **regen:** updated docs from protoc update ([#21](https://github.com/googleapis/java-phishingprotection/issues/21)) ([3ef4d57](https://github.com/googleapis/java-phishingprotection/commit/3ef4d57f74ffc391590095865daf4d383abb41d6))
+
+
+### Dependencies
+
+* update core dependencies ([#37](https://github.com/googleapis/java-phishingprotection/issues/37)) ([801623c](https://github.com/googleapis/java-phishingprotection/commit/801623c22ba471e85d6ff12210cba711b2e3e82f))
+* update core dependencies ([#68](https://github.com/googleapis/java-phishingprotection/issues/68)) ([f6bc080](https://github.com/googleapis/java-phishingprotection/commit/f6bc080c8a6d32a0287678353c7b245b50affb57))
+* update core dependencies ([#70](https://github.com/googleapis/java-phishingprotection/issues/70)) ([38647cb](https://github.com/googleapis/java-phishingprotection/commit/38647cb7d2e84daa0a4956219d336204bc3683f6))
+* update core dependencies to v1.53.1 ([85ecff7](https://github.com/googleapis/java-phishingprotection/commit/85ecff7d8f78297f8d5389b559ab5acde1b54b33))
+* update dependency com.google.api:api-common to v1.9.0 ([#91](https://github.com/googleapis/java-phishingprotection/issues/91)) ([28e0040](https://github.com/googleapis/java-phishingprotection/commit/28e0040b6377b3a377114e5f2b8852630ac2b4a0))
+* update dependency com.google.api:api-common to v1.9.1 ([#140](https://github.com/googleapis/java-phishingprotection/issues/140)) ([e49bc50](https://github.com/googleapis/java-phishingprotection/commit/e49bc5009e0e17b40cca1801398f6fc1fa572cb2))
+* update dependency com.google.api:api-common to v1.9.2 ([#147](https://github.com/googleapis/java-phishingprotection/issues/147)) ([41eb428](https://github.com/googleapis/java-phishingprotection/commit/41eb428c3c9b67ce7bff01cf88abf45a650f5692))
+* update dependency com.google.api.grpc:proto-google-common-protos to v1.18.0 ([#130](https://github.com/googleapis/java-phishingprotection/issues/130)) ([1546fd6](https://github.com/googleapis/java-phishingprotection/commit/1546fd69d9336ae9a4d9cb820a9b8084f4263d00))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.10.0 ([#221](https://github.com/googleapis/java-phishingprotection/issues/221)) ([9e93a76](https://github.com/googleapis/java-phishingprotection/commit/9e93a761035dd66a58336e007818aff35c5556db))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.10.2 ([#235](https://github.com/googleapis/java-phishingprotection/issues/235)) ([7f94071](https://github.com/googleapis/java-phishingprotection/commit/7f940719a4af171476a6e3a562ba974a5ea2af58))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.12.1 ([#251](https://github.com/googleapis/java-phishingprotection/issues/251)) ([1520b49](https://github.com/googleapis/java-phishingprotection/commit/1520b4943696a39935fa393221f505c6680acd8b))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.13.0 ([#258](https://github.com/googleapis/java-phishingprotection/issues/258)) ([36a07cc](https://github.com/googleapis/java-phishingprotection/commit/36a07cc3c19975dafc2b9ddf1a675bf4366c9a63))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.14.1 ([#273](https://github.com/googleapis/java-phishingprotection/issues/273)) ([55a68ee](https://github.com/googleapis/java-phishingprotection/commit/55a68ee054bb6ae0ed5d20ca96e4234bb96fbca9))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.15.0 ([#285](https://github.com/googleapis/java-phishingprotection/issues/285)) ([2ab989c](https://github.com/googleapis/java-phishingprotection/commit/2ab989cefffdbbad0ab3f5e475929119b8eedea0))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.16.0 ([#303](https://github.com/googleapis/java-phishingprotection/issues/303)) ([0be9917](https://github.com/googleapis/java-phishingprotection/commit/0be9917af35b8669a28fa668e4969d8fd82512ce))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.16.1 ([#313](https://github.com/googleapis/java-phishingprotection/issues/313)) ([07b8839](https://github.com/googleapis/java-phishingprotection/commit/07b8839fb1a60979f2053fe47219f0c5e85aac3b))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.17.0 ([#318](https://github.com/googleapis/java-phishingprotection/issues/318)) ([1e9f97b](https://github.com/googleapis/java-phishingprotection/commit/1e9f97b6ba29ae6a8c89d7f919907503298e0f58))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.17.1 ([#332](https://github.com/googleapis/java-phishingprotection/issues/332)) ([73ce7d7](https://github.com/googleapis/java-phishingprotection/commit/73ce7d7d581569e23c38c946735c2f77da325b46))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.18.0 ([#335](https://github.com/googleapis/java-phishingprotection/issues/335)) ([7bd5e48](https://github.com/googleapis/java-phishingprotection/commit/7bd5e48906fc79d12c5cc978f6b14b6d4ad186cb))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.19.0 ([#367](https://github.com/googleapis/java-phishingprotection/issues/367)) ([d62fcc3](https://github.com/googleapis/java-phishingprotection/commit/d62fcc326b36a7002a13b60c1e7d6937d7256c53))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.20.0 ([#376](https://github.com/googleapis/java-phishingprotection/issues/376)) ([9e0d108](https://github.com/googleapis/java-phishingprotection/commit/9e0d1087d03e8b5130ffa0621d0e98c904c68185))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.20.1 ([#390](https://github.com/googleapis/java-phishingprotection/issues/390)) ([8238492](https://github.com/googleapis/java-phishingprotection/commit/8238492fc86bc9ab64b482268a370dbf239ded98))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.0 ([#403](https://github.com/googleapis/java-phishingprotection/issues/403)) ([3d469df](https://github.com/googleapis/java-phishingprotection/commit/3d469df12fcd5a67a59a177c59c881778fc035aa))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.1 ([#420](https://github.com/googleapis/java-phishingprotection/issues/420)) ([650c33f](https://github.com/googleapis/java-phishingprotection/commit/650c33f1c2592ab96328283ea7c9339110657211))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.8.2 ([#179](https://github.com/googleapis/java-phishingprotection/issues/179)) ([7e1159b](https://github.com/googleapis/java-phishingprotection/commit/7e1159bbf1d61abb6d54c2c016276fa628254df9))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.8.6 ([0d10d24](https://github.com/googleapis/java-phishingprotection/commit/0d10d2411cff05648be43a169673cc9cdbeff0c1))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.9.0 ([#203](https://github.com/googleapis/java-phishingprotection/issues/203)) ([8a042eb](https://github.com/googleapis/java-phishingprotection/commit/8a042eb9985372f05095ddf00979b4c60fa6a07a))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1 ([#423](https://github.com/googleapis/java-phishingprotection/issues/423)) ([843378d](https://github.com/googleapis/java-phishingprotection/commit/843378d8b20d65e079e0059240fc43dcc6592229))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.1.0 ([#437](https://github.com/googleapis/java-phishingprotection/issues/437)) ([462081e](https://github.com/googleapis/java-phishingprotection/commit/462081e09627fd97c2f176f11f6f376b341cd656))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.2.0 ([#447](https://github.com/googleapis/java-phishingprotection/issues/447)) ([9f7c9d1](https://github.com/googleapis/java-phishingprotection/commit/9f7c9d16f55f976e2c93fc83f8acad40b2e7c7e4))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.3.0 ([#460](https://github.com/googleapis/java-phishingprotection/issues/460)) ([29cf122](https://github.com/googleapis/java-phishingprotection/commit/29cf12281f5c4280f4d88f3f5d634dcee553a687))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.4.0 ([#478](https://github.com/googleapis/java-phishingprotection/issues/478)) ([d365ff3](https://github.com/googleapis/java-phishingprotection/commit/d365ff32e0abe9acfd594f1d72371183eee0e936))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2 ([#509](https://github.com/googleapis/java-phishingprotection/issues/509)) ([6525839](https://github.com/googleapis/java-phishingprotection/commit/6525839b406399de69797de4df52d579d9e869ce))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.0.1 ([#515](https://github.com/googleapis/java-phishingprotection/issues/515)) ([06d76c7](https://github.com/googleapis/java-phishingprotection/commit/06d76c7db4ad1c522ce1b6633b806c0ec97eec2a))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.1.0 ([#524](https://github.com/googleapis/java-phishingprotection/issues/524)) ([f79880e](https://github.com/googleapis/java-phishingprotection/commit/f79880e58b4be58e6683d9c7aa2ed2dd841df3f0))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.2.0 ([#534](https://github.com/googleapis/java-phishingprotection/issues/534)) ([d98cf2b](https://github.com/googleapis/java-phishingprotection/commit/d98cf2b18aa45abc9a730585def49196254c6629))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.2.1 ([#548](https://github.com/googleapis/java-phishingprotection/issues/548)) ([918658c](https://github.com/googleapis/java-phishingprotection/commit/918658c6ee022d7249e42f81d6cbca340bb06b78))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.3.0 ([#555](https://github.com/googleapis/java-phishingprotection/issues/555)) ([2b5cb8a](https://github.com/googleapis/java-phishingprotection/commit/2b5cb8a2ee15750b88bf8aafc6b3baac46504c2a))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.4.0 ([#568](https://github.com/googleapis/java-phishingprotection/issues/568)) ([7318dfc](https://github.com/googleapis/java-phishingprotection/commit/7318dfcfbf5d2de13dc1fcec24532c9942bbb0a9))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.5.0 ([#584](https://github.com/googleapis/java-phishingprotection/issues/584)) ([9d56900](https://github.com/googleapis/java-phishingprotection/commit/9d569008de9d675dff54c6daa3db70927415a82f))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.5.1 ([#588](https://github.com/googleapis/java-phishingprotection/issues/588)) ([a602173](https://github.com/googleapis/java-phishingprotection/commit/a602173596fd802a0b6c0836e2f414eddfb198e3))
+* update dependency com.google.guava:guava-bom to v28.2-android ([#29](https://github.com/googleapis/java-phishingprotection/issues/29)) ([a8b3dc6](https://github.com/googleapis/java-phishingprotection/commit/a8b3dc655fc36854dc9e8cd1bc190a804ef7249c))
+* update dependency com.google.guava:guava-bom to v29 ([#104](https://github.com/googleapis/java-phishingprotection/issues/104)) ([52a09f1](https://github.com/googleapis/java-phishingprotection/commit/52a09f12cabd53ae69e06738ff18b61bdaee6c74))
+* update dependency com.google.protobuf:protobuf-java to v3.11.1 ([10a052b](https://github.com/googleapis/java-phishingprotection/commit/10a052bf79016af4f1cd05a9167cb75d944a4cd4))
+* update dependency com.google.protobuf:protobuf-java to v3.11.3 ([#50](https://github.com/googleapis/java-phishingprotection/issues/50)) ([add1e8b](https://github.com/googleapis/java-phishingprotection/commit/add1e8b5841f54dd2f3ba9a18e7429f643af967b))
+* update dependency com.google.protobuf:protobuf-java to v3.11.4 ([762c5bd](https://github.com/googleapis/java-phishingprotection/commit/762c5bdcdfe1f3040418ffba20d9f2f72f1f4c5b))
+* update dependency com.google.protobuf:protobuf-java to v3.12.0 ([#134](https://github.com/googleapis/java-phishingprotection/issues/134)) ([a084ef0](https://github.com/googleapis/java-phishingprotection/commit/a084ef00f685db7344932b08b13244823bbc97bd))
+* update dependency com.google.protobuf:protobuf-java to v3.12.2 ([#138](https://github.com/googleapis/java-phishingprotection/issues/138)) ([8002a6b](https://github.com/googleapis/java-phishingprotection/commit/8002a6bd69a344682aaa900ca08c9bb0e62a99ec))
+* update dependency io.grpc:grpc-bom to v1.24.1 ([#4](https://github.com/googleapis/java-phishingprotection/issues/4)) ([931d11e](https://github.com/googleapis/java-phishingprotection/commit/931d11eeb2f528014384a311c340f35b729e8928))
+* update dependency io.grpc:grpc-bom to v1.26.0 ([#25](https://github.com/googleapis/java-phishingprotection/issues/25)) ([be6bf49](https://github.com/googleapis/java-phishingprotection/commit/be6bf4908ee68878307ff3f93d80a881010e6754))
+* update dependency io.grpc:grpc-bom to v1.27.1 ([05614ac](https://github.com/googleapis/java-phishingprotection/commit/05614ac1823e8231f391f16acbda64ac127f4483))
+* update dependency io.grpc:grpc-bom to v1.29.0 ([#122](https://github.com/googleapis/java-phishingprotection/issues/122)) ([231d835](https://github.com/googleapis/java-phishingprotection/commit/231d83525140a62fad807d32f6396035997133cb))
+* update dependency io.grpc:grpc-bom to v1.30.0 ([#151](https://github.com/googleapis/java-phishingprotection/issues/151)) ([02b0f92](https://github.com/googleapis/java-phishingprotection/commit/02b0f926e8d9f42ff392f211a6758074d4f9b5b2))
+* update dependency org.threeten:threetenbp to v1.4.1 ([56dcb0c](https://github.com/googleapis/java-phishingprotection/commit/56dcb0ce006ef1b12fc2a61fbaca6af76ed2efc6))
+* update dependency org.threeten:threetenbp to v1.4.3 ([#81](https://github.com/googleapis/java-phishingprotection/issues/81)) ([3499c73](https://github.com/googleapis/java-phishingprotection/commit/3499c73f3ca8c7b6978107ce28df322a78e152c1))
+* update dependency org.threeten:threetenbp to v1.4.4 ([#124](https://github.com/googleapis/java-phishingprotection/issues/124)) ([d08cbab](https://github.com/googleapis/java-phishingprotection/commit/d08cbabc391ab308d5ddbf269504caeb93fcd2c5))
+* update gax.version to v1.49.1 ([#5](https://github.com/googleapis/java-phishingprotection/issues/5)) ([319093b](https://github.com/googleapis/java-phishingprotection/commit/319093bd990ae33bc49d0ed79883eb31749d89ef))
+* update gax.version to v1.52.0 ([#20](https://github.com/googleapis/java-phishingprotection/issues/20)) ([fe2b438](https://github.com/googleapis/java-phishingprotection/commit/fe2b4385d03f097e0218f4759a894ccec6651f8d))
+
 ### [0.32.4](https://www.github.com/googleapis/java-phishingprotection/compare/v0.32.3...v0.32.4) (2021-12-03)
 
 
