@@ -22,7 +22,7 @@ If you are using Maven with [BOM][libraries-bom], add this to your pom.xml file
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>libraries-bom</artifactId>
-      <version>24.4.0</version>
+      <version>25.1.0</version>
       <type>pom</type>
       <scope>import</scope>
     </dependency>
@@ -59,13 +59,13 @@ implementation 'com.google.cloud:google-cloud-phishingprotection'
 If you are using Gradle without BOM, add this to your dependencies
 
 ```Groovy
-implementation 'com.google.cloud:google-cloud-phishingprotection:0.32.10'
+implementation 'com.google.cloud:google-cloud-phishingprotection:0.32.11'
 ```
 
 If you are using SBT, add this to your dependencies
 
 ```Scala
-libraryDependencies += "com.google.cloud" % "google-cloud-phishingprotection" % "0.32.10"
+libraryDependencies += "com.google.cloud" % "google-cloud-phishingprotection" % "0.32.11"
 ```
 
 ## Authentication
