@@ -16,34 +16,30 @@
 
 package com.google.cloud.phishingprotection.v1beta1.samples;
 
-// [START phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_sync]
+// [START phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_Create_SetCredentialsProvider_sync]
+import com.google.api.gax.core.FixedCredentialsProvider;
 import com.google.cloud.phishingprotection.v1beta1.PhishingProtectionServiceV1Beta1Client;
-import com.google.phishingprotection.v1beta1.ProjectName;
-import com.google.phishingprotection.v1beta1.ReportPhishingRequest;
-import com.google.phishingprotection.v1beta1.ReportPhishingResponse;
+import com.google.cloud.phishingprotection.v1beta1.PhishingProtectionServiceV1Beta1Settings;
+import com.google.cloud.phishingprotection.v1beta1.myCredentials;
 
-public class SyncReportPhishing {
+public class SyncCreateSetCredentialsProvider {
 
   public static void main(String[] args) throws Exception {
-    syncReportPhishing();
+    syncCreateSetCredentialsProvider();
   }
 
-  public static void syncReportPhishing() throws Exception {
+  public static void syncCreateSetCredentialsProvider() throws Exception {
     // This snippet has been automatically generated and should be regarded as a code template only.
     // It will require modifications to work:
     // - It may require correct/in-range values for request initialization.
     // - It may require specifying regional endpoints when creating the service client as shown in
     // https://cloud.google.com/java/docs/setup#configure_endpoints_for_the_client_library
-    try (PhishingProtectionServiceV1Beta1Client phishingProtectionServiceV1Beta1Client =
-        PhishingProtectionServiceV1Beta1Client.create()) {
-      ReportPhishingRequest request =
-          ReportPhishingRequest.newBuilder()
-              .setParent(ProjectName.of("[PROJECT]").toString())
-              .setUri("uri116076")
-              .build();
-      ReportPhishingResponse response =
-          phishingProtectionServiceV1Beta1Client.reportPhishing(request);
-    }
+    PhishingProtectionServiceV1Beta1Settings phishingProtectionServiceV1Beta1Settings =
+        PhishingProtectionServiceV1Beta1Settings.newBuilder()
+            .setCredentialsProvider(FixedCredentialsProvider.create(myCredentials))
+            .build();
+    PhishingProtectionServiceV1Beta1Client phishingProtectionServiceV1Beta1Client =
+        PhishingProtectionServiceV1Beta1Client.create(phishingProtectionServiceV1Beta1Settings);
   }
 }
-// [END phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_sync]
+// [END phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_Create_SetCredentialsProvider_sync]

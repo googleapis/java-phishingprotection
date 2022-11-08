@@ -16,20 +16,18 @@
 
 package com.google.cloud.phishingprotection.v1beta1.samples;
 
-// [START phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_async]
-import com.google.api.core.ApiFuture;
+// [START phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_ReportPhishing_StringString_sync]
 import com.google.cloud.phishingprotection.v1beta1.PhishingProtectionServiceV1Beta1Client;
 import com.google.phishingprotection.v1beta1.ProjectName;
-import com.google.phishingprotection.v1beta1.ReportPhishingRequest;
 import com.google.phishingprotection.v1beta1.ReportPhishingResponse;
 
-public class AsyncReportPhishing {
+public class SyncReportPhishingStringString {
 
   public static void main(String[] args) throws Exception {
-    asyncReportPhishing();
+    syncReportPhishingStringString();
   }
 
-  public static void asyncReportPhishing() throws Exception {
+  public static void syncReportPhishingStringString() throws Exception {
     // This snippet has been automatically generated and should be regarded as a code template only.
     // It will require modifications to work:
     // - It may require correct/in-range values for request initialization.
@@ -37,16 +35,11 @@ public class AsyncReportPhishing {
     // https://cloud.google.com/java/docs/setup#configure_endpoints_for_the_client_library
     try (PhishingProtectionServiceV1Beta1Client phishingProtectionServiceV1Beta1Client =
         PhishingProtectionServiceV1Beta1Client.create()) {
-      ReportPhishingRequest request =
-          ReportPhishingRequest.newBuilder()
-              .setParent(ProjectName.of("[PROJECT]").toString())
-              .setUri("uri116076")
-              .build();
-      ApiFuture<ReportPhishingResponse> future =
-          phishingProtectionServiceV1Beta1Client.reportPhishingCallable().futureCall(request);
-      // Do something.
-      ReportPhishingResponse response = future.get();
+      String parent = ProjectName.of("[PROJECT]").toString();
+      String uri = "uri116076";
+      ReportPhishingResponse response =
+          phishingProtectionServiceV1Beta1Client.reportPhishing(parent, uri);
     }
   }
 }
-// [END phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_async]
+// [END phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_ReportPhishing_StringString_sync]

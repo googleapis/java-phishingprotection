@@ -16,30 +16,27 @@
 
 package com.google.cloud.phishingprotection.v1beta1.samples;
 
-// [START phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_stringstring_sync]
+// [START phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_Create_SetEndpoint_sync]
 import com.google.cloud.phishingprotection.v1beta1.PhishingProtectionServiceV1Beta1Client;
-import com.google.phishingprotection.v1beta1.ProjectName;
-import com.google.phishingprotection.v1beta1.ReportPhishingResponse;
+import com.google.cloud.phishingprotection.v1beta1.PhishingProtectionServiceV1Beta1Settings;
+import com.google.cloud.phishingprotection.v1beta1.myEndpoint;
 
-public class SyncReportPhishingStringString {
+public class SyncCreateSetEndpoint {
 
   public static void main(String[] args) throws Exception {
-    syncReportPhishingStringString();
+    syncCreateSetEndpoint();
   }
 
-  public static void syncReportPhishingStringString() throws Exception {
+  public static void syncCreateSetEndpoint() throws Exception {
     // This snippet has been automatically generated and should be regarded as a code template only.
     // It will require modifications to work:
     // - It may require correct/in-range values for request initialization.
     // - It may require specifying regional endpoints when creating the service client as shown in
     // https://cloud.google.com/java/docs/setup#configure_endpoints_for_the_client_library
-    try (PhishingProtectionServiceV1Beta1Client phishingProtectionServiceV1Beta1Client =
-        PhishingProtectionServiceV1Beta1Client.create()) {
-      String parent = ProjectName.of("[PROJECT]").toString();
-      String uri = "uri116076";
-      ReportPhishingResponse response =
-          phishingProtectionServiceV1Beta1Client.reportPhishing(parent, uri);
-    }
+    PhishingProtectionServiceV1Beta1Settings phishingProtectionServiceV1Beta1Settings =
+        PhishingProtectionServiceV1Beta1Settings.newBuilder().setEndpoint(myEndpoint).build();
+    PhishingProtectionServiceV1Beta1Client phishingProtectionServiceV1Beta1Client =
+        PhishingProtectionServiceV1Beta1Client.create(phishingProtectionServiceV1Beta1Settings);
   }
 }
-// [END phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_stringstring_sync]
+// [END phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_Create_SetEndpoint_sync]
