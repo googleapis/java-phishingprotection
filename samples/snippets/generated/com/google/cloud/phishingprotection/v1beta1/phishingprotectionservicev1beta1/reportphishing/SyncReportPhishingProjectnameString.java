@@ -16,7 +16,7 @@
 
 package com.google.cloud.phishingprotection.v1beta1.samples;
 
-// [START phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_projectnamestring_sync]
+// [START phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_ReportPhishing_ProjectnameString_sync]
 import com.google.cloud.phishingprotection.v1beta1.PhishingProtectionServiceV1Beta1Client;
 import com.google.phishingprotection.v1beta1.ProjectName;
 import com.google.phishingprotection.v1beta1.ReportPhishingResponse;
@@ -42,4 +42,4 @@ public class SyncReportPhishingProjectnameString {
     }
   }
 }
-// [END phishingprotection_v1beta1_generated_phishingprotectionservicev1beta1client_reportphishing_projectnamestring_sync]
+// [END phishingprotection_v1beta1_generated_PhishingProtectionServiceV1Beta1_ReportPhishing_ProjectnameString_sync]
