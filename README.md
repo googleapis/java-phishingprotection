@@ -12,6 +12,13 @@ Java idiomatic client for [Phishing Protection][product-docs].
 > make backwards-incompatible changes.
 
 
+:bus: In October 2022, this library has moved to
+[google-cloud-java/java-phishingprotection](
+https://github.com/googleapis/google-cloud-java/tree/main/java-phishingprotection).
+This repository will be archived in the future.
+Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
+The Maven artifact coordinates (`com.google.cloud:google-cloud-phishingprotection`) remain the same.
+
 ## Quickstart
 
 If you are using Maven with [BOM][libraries-bom], add this to your pom.xml file:
@@ -59,13 +66,13 @@ implementation 'com.google.cloud:google-cloud-phishingprotection'
 If you are using Gradle without BOM, add this to your dependencies:
 
 ```Groovy
-implementation 'com.google.cloud:google-cloud-phishingprotection:0.36.0'
+implementation 'com.google.cloud:google-cloud-phishingprotection:0.37.0'
 ```
 
 If you are using SBT, add this to your dependencies:
 
 ```Scala
-libraryDependencies += "com.google.cloud" % "google-cloud-phishingprotection" % "0.36.0"
+libraryDependencies += "com.google.cloud" % "google-cloud-phishingprotection" % "0.37.0"
 ```
 
 ## Authentication
